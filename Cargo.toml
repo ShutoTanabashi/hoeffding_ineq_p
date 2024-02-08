@@ -1,0 +1,15 @@
+[package]
+name = "hoeffding_ineq"
+version = "0.2.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# [build]
+# rustflags = ["--C relocation-model=pic"]
+
+
+[dependencies]
+libm = "0.2"
+rayon = "1.5"
+simple_excel_writer = "0.1"
+statrs = "0.16"
